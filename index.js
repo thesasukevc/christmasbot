@@ -636,3 +636,12 @@ process.on('uncaughtException', (err) => {
   log.info(`🤖 @${me.username} is running... Languages: ${languages().map((l) => l.code).join(', ')} | admins: ${ADMIN_IDS.size}`);
   notifyAdmins(`🟢 <b>Bot ishga tushdi</b> (@${escapeHtml(me.username)})`);
 })();
+const http = require('http');
+
+const PORT = process.env.PORT || 3000;
+http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Bot is running!');
+}).listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
