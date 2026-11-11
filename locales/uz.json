@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "code": "uz",
+    "order": 1,
+    "name": "Oʻzbekcha",
+    "flag": "🇺🇿",
+    "chooseLang": "Tilni tanlang",
+    "commands": {
+      "start": "Boshlash / kartochka yaratish",
+      "language": "Tilni oʻzgartirish",
+      "cancel": "Joriy amalni bekor qilish"
+    },
+    "description": "Ismingiz yozilgan Yangi yil sertifikati va tabrik kartochkasini yarating 🎄 Dizaynni tanlang, ismingizni yozing — tayyor!",
+    "shortDescription": "Ismingiz yozilgan Yangi yil kartochkasi 🎄"
+  },
+  "bot": {
+    "welcome": "🎄✨ <b>Yangi yil muborak, {name}!</b> ✨🎄\n\nMen sizning ismingiz yozilgan shaxsiy Yangi yil sertifikati yoki tabrik kartochkasini yarataman. 🎁\n\n👇 <b>Dizaynni tanlang:</b>",
+    "selected": "{label} tanlandi! ✅\n\n✍️ Endi <b>ism-familiyangizni</b> kartochkada qanday koʻrinishi kerak boʻlsa, shunday yozing:",
+    "selectedToast": "Tanlandi: {label}",
+    "designUnavailable": "Bu dizayn endi mavjud emas. /start yuboring.",
+    "chooseFirst": "🎨 Avval <b>dizaynni tanlang</b>, keyin ismingizni soʻrayman:",
+    "sendText": "⚠️ Iltimos, ismingizni oddiy matn koʻrinishida yuboring.",
+    "nameTooShort": "Ism juda qisqa. Kamida {min} ta belgi kiriting.",
+    "nameTooLong": "Ism juda uzun. {max} ta belgidan oshmasin.",
+    "nameInvalid": "Iltimos, faqat harflardan foydalaning (raqam va maxsus belgilarsiz).",
+    "retryHint": "Qayta urinib koʻring yoki /cancel yuboring.",
+    "another": "🎁 Yana bittasini yaratamizmi? Quyidan dizaynni tanlang 🎄",
+    "cancelled": "❌ Bekor qilindi. Qaytadan boshlash uchun /start yuboring.",
+    "nothingToCancel": "Bekor qilinadigan narsa yoʻq. Boshlash uchun /start yuboring.",
+    "error": "😔 Kechirasiz, kartochkani yaratishda xatolik yuz berdi. /start yuborib, qaytadan urinib koʻring.",
+    "changeLang": "🌐 Til",
+    "btnDocument": "📎 Asl sifatda yuklab olish",
+    "btnShare": "📤 Doʻstlarga ulashish",
+    "btnToCyr": "🔤 Кирилл ёзувида",
+    "btnToLat": "🔤 Lotin yozuvida",
+    "shareText": "🎄 Oʻz Yangi yil kartochkangizni yarating!",
+    "docCaption": "📎 Asl sifatdagi fayl",
+    "cardExpired": "Bu kartochka endi mavjud emas. /start orqali yangisini yarating.",
+    "rateWait": "⏳ Keyingi kartochka uchun {sec} soniya kuting.",
+    "dailyLimit": "🚫 Kunlik limit tugadi ({limit} ta kartochka). Ertaga qaytib keling!",
+    "maintenance": "🛠 Bot texnik ishlar rejimida. Keyinroq urinib koʻring.",
+    "subscribe": "📢 Botdan foydalanish uchun avval kanalimizga obuna boʻling, soʻng «Tekshirish» tugmasini bosing.",
+    "btnJoin": "📢 Kanalga oʻtish",
+    "btnCheck": "✅ Tekshirish",
+    "notSubscribed": "Siz hali obuna boʻlmadingiz.",
+    "subscribedOk": "✅ Rahmat! Endi dizaynni tanlang:",
+    "groupsHint": "Iltimos, menga shaxsiy xabarda yozing: {link}"
+  },
+  "templates": {
+    "cert1": {
+      "label": "🏆 Sertifikat 1",
+      "caption": "🎄 Tabriklaymiz! Yangi yil muborak! Kirib kelayotgan yil sizga omad, quvonch va katta gʻalabalar olib kelsin! 🎉"
+    },
+    "greet1": {
+      "label": "🌙 Tabrik 1",
+      "caption": "✨ Yangi yil muborak! Sizga sogʻlik, baxt va barcha orzularingiz ushalishini tilaymiz! 🥂"
+    },
+    "greet2": {
+      "label": "❄️ Tabrik 2",
+      "caption": "❄️ Sizga va yaqinlaringizga eng iliq Yangi yil tilaklari! Yangi yil siz uchun eng yaxshi yil boʻlsin! 🎆"
+    },
+    "greet3": {
+      "label": "🎅 Tabrik 3",
+      "caption": "🎅 Yangi yil muborak! Yangi yilning har bir kuni sehrga toʻla boʻlsin! 🌟"
+    }
+  },
+  "card": {
+    "cert_title": "SERTIFIKAT",
+    "cert_sub": "YANGI YIL TABRIGI",
+    "cert_presented": "Ushbu sertifikat faxr bilan taqdim etiladi",
+    "cert_l1": "Yangi yil bayrami munosabati bilan sizga sogʻlik, baxt va",
+    "cert_l2": "muvaffaqiyat tilaymiz — 2027-yil sizga omad olib kelsin!",
+    "cert_date": "01.01.2027",
+    "cert_date_label": "Sana",
+    "cert_sign": "Qor bobo",
+    "cert_sign_label": "Imzo",
+    "night_title": "Yangi yil muborak!",
+    "night_year": "2027",
+    "night_label": "Sizga maxsus tabrik:",
+    "night_l1": "Yangi yilingiz quvonch va sogʻlik,",
+    "night_l2": "goʻzal onlarga toʻla boʻlsin!",
+    "ice_title": "Yangi yil muborak!",
+    "ice_year": "2027",
+    "ice_l1": "Sizga va yaqinlaringizga iliqlik,",
+    "ice_l2": "baxt va omad tilaymiz!",
+    "red_title": "Yangi yil muborak!",
+    "red_label": "Eng iliq tilaklar:",
+    "red_l1": "Yangi yil sizga baxt, omad va sehr olib kelsin!",
+    "red_year": "2027"
+  }
+}

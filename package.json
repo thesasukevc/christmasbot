@@ -1,0 +1,21 @@
+{
+  "name": "newyear-card-bot",
+  "version": "2.0.0",
+  "description": "Telegram bot that writes a user's name on New Year certificates and greeting cards (uz / en / ru, admin panel)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/unit.js",
+    "test-render": "node test-render.js",
+    "make-templates": "python3 tools/make_templates.py"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "0.66.0"
+  },
+  "license": "MIT"
+}

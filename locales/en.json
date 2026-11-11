@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "code": "en",
+    "order": 2,
+    "name": "English",
+    "flag": "🇬🇧",
+    "chooseLang": "Choose your language",
+    "commands": {
+      "start": "Start / create a card",
+      "language": "Change language",
+      "cancel": "Cancel current action"
+    },
+    "description": "Create a New Year certificate or greeting card with your name on it 🎄 Pick a design, type your name — done!",
+    "shortDescription": "New Year card with your name 🎄"
+  },
+  "bot": {
+    "welcome": "🎄✨ <b>Happy New Year, {name}!</b> ✨🎄\n\nI will create a personal New Year certificate or greeting card with your name on it. 🎁\n\n👇 <b>Choose a design:</b>",
+    "selected": "{label} selected! ✅\n\n✍️ Now please type your <b>Full Name</b> exactly as you want it to appear:",
+    "selectedToast": "Selected: {label}",
+    "designUnavailable": "This design is no longer available. Send /start.",
+    "chooseFirst": "🎨 Please <b>choose a design first</b>, then I will ask for your name:",
+    "sendText": "⚠️ Please send your name as plain text.",
+    "nameTooShort": "The name is too short. Please enter at least {min} characters.",
+    "nameTooLong": "The name is too long. Please keep it under {max} characters.",
+    "nameInvalid": "Please use letters only (no digits or special symbols).",
+    "retryHint": "Try again, or send /cancel.",
+    "another": "🎁 Want another one? Pick a design below, or just enjoy the holidays! 🎄",
+    "cancelled": "❌ Cancelled. Send /start to begin again.",
+    "nothingToCancel": "Nothing to cancel. Send /start to begin.",
+    "error": "😔 Sorry, something went wrong while creating your card. Please send /start and try again.",
+    "changeLang": "🌐 Language",
+    "btnDocument": "📎 Download in full quality",
+    "btnShare": "📤 Share with friends",
+    "btnToCyr": "🔤 In Cyrillic script",
+    "btnToLat": "🔤 In Latin script",
+    "shareText": "🎄 Create your own New Year card!",
+    "docCaption": "📎 Full quality file",
+    "cardExpired": "This card is no longer available. Create a new one with /start.",
+    "rateWait": "⏳ Please wait {sec} s before creating the next card.",
+    "dailyLimit": "🚫 Daily limit reached ({limit} cards). Come back tomorrow!",
+    "maintenance": "🛠 The bot is under maintenance. Please try again later.",
+    "subscribe": "📢 To use the bot, please subscribe to our channel first, then press “Check”.",
+    "btnJoin": "📢 Join channel",
+    "btnCheck": "✅ Check",
+    "notSubscribed": "You have not subscribed yet.",
+    "subscribedOk": "✅ Thank you! Now choose a design:",
+    "groupsHint": "Please write to me in a private chat: {link}"
+  },
+  "templates": {
+    "cert1": {
+      "label": "🏆 Certificate 1",
+      "caption": "🎄 Congratulations! Happy New Year! May the coming year bring you success, joy and wonderful victories! 🎉"
+    },
+    "greet1": {
+      "label": "🌙 Greeting 1",
+      "caption": "✨ Happy New Year! Wishing you health, happiness and all your dreams coming true! 🥂"
+    },
+    "greet2": {
+      "label": "❄️ Greeting 2",
+      "caption": "❄️ Warmest New Year wishes to you and your loved ones! Let the new year be your best one yet! 🎆"
+    },
+    "greet3": {
+      "label": "🎅 Greeting 3",
+      "caption": "🎅 Happy New Year! May every day of the new year be filled with magic! 🌟"
+    }
+  },
+  "card": {
+    "cert_title": "CERTIFICATE",
+    "cert_sub": "OF NEW YEAR WISHES",
+    "cert_presented": "This certificate is proudly presented to",
+    "cert_l1": "in celebration of the New Year, with warmest wishes for",
+    "cert_l2": "happiness, health and success in 2027!",
+    "cert_date": "01.01.2027",
+    "cert_date_label": "Date",
+    "cert_sign": "Father Frost",
+    "cert_sign_label": "Signature",
+    "night_title": "Happy New Year",
+    "night_year": "2027",
+    "night_label": "A special greeting for",
+    "night_l1": "May your year be filled with joy, health",
+    "night_l2": "and wonderful moments!",
+    "ice_title": "Happy New Year",
+    "ice_year": "2027",
+    "ice_l1": "Wishing you warmth, happiness and",
+    "ice_l2": "all the best in the New Year!",
+    "red_title": "Happy New Year!",
+    "red_label": "Special wishes for",
+    "red_l1": "May the new year bring you happiness, luck and magic!",
+    "red_year": "2027"
+  }
+}
